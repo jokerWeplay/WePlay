@@ -42,6 +42,8 @@ public class TestController {
 		list.add(h2);
 		list.add(h3);
 		
+		System.out.println("3333333");
+		
 		req.setAttribute("list", list);
 		return "/welcome"; 
 	}
